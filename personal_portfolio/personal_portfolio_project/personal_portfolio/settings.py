@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 
-from settings_secret import *
+from settings_secret import * #  La clé SECRETE est maintenant dans settings_secret.py pour ne pas être synchronisée avec github
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = ')^pn=2$@r-2lo#i-4nrd(iv@2&unrj#5bjbd-o9okcp#1@vleh'  # OLD SECRET KEY
+# SECRET_KEY = ')^pn=2$@r-2lo#i-4nrd(iv@2&unrj#5bjbd-o9okcp#1@vleh'  # OLD SECRET KEY / La clé est maintenant dans settings_secret.py pour ne pas être synchronisée avec github
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
