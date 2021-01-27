@@ -1,3 +1,6 @@
+# My Project #
+secret_settings.py
+
 # Django #
 *.log
 *.pot
