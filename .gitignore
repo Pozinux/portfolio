@@ -1,5 +1,6 @@
 # My Project #
-secret_settings.py
+settings_secret.py
+venv_personal_portfolio
 
 # Django #
 *.log
