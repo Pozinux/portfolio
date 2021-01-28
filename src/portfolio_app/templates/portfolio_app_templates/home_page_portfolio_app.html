@@ -1,0 +1,15 @@
+<h3>HOME PAGE PORTFOLIO APP</h3>
+        
+<p>{{ projects }}</p>       
+        
+<p>{% for project in projects %}       
+  {{ project }}       
+{% endfor %}</p>       
+        
+{% for project in projects %}       
+  <p>{{ project.title }}</p>       
+  <p>{{ project.description }}</p>       
+  <p>{{ project.image }}</p>       
+  <p >{{ project.image.url }}</p>       
+ <img src="{{ project.image.url }}">
+{% endfor %}
