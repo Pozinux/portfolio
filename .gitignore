@@ -1,6 +1,11 @@
 # My Project #
+<<<<<<< HEAD
 #settings_secret.py
 venv_personal_portfolio
+=======
+settings_secret.py
+venv_portfolio
+>>>>>>> 6ccbbb366e6a2a4821c53eea90c1382693402ffd
 .idea
 
 # Django #
